@@ -5,9 +5,13 @@
 - [GSAP] (https://greensock.com/)
 - [Browsersync] (https://www.browsersync.io/)
 
+# Patterns
+- [RSCSS] (http://rscss.io/)
+
 # Development
-To start a local server, run on terminal:
+To start a local server, run:
   - gulp
 
-To generate a new build version, run on terminal:
+# Deploy
+To generate a new dist version, run:
   - gulp build

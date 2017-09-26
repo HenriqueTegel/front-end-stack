@@ -168,13 +168,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
-  .header .header-title {
+  .header > .title {
     margin: 0px 0px 40px 0px;
     text-transform: uppercase;
     font-family: 'Helvetica Neue';
     font-size: 48px;
     color: #333333; }
-  .header .header-subtitle {
+  .header > .subtitle {
     font-family: 'Helvetica Neue';
     font-size: 36px;
     color: #666666; }
