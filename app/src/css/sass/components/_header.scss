@@ -1,19 +1,18 @@
 .header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  @extend .absolute-centralized;
+  max-width: $wrapper-width-limit;
+  width: $wrapper-width;
   text-align: center;
   > .title {
     margin: 0px 0px 40px 0px;
     text-transform: uppercase;
-    font-family: 'Helvetica Neue';
-    font-size: 48px;
-    color: #333333;
+    font-family: $main-font;
+    font-size: $main-title-size;
+    color: $main-title-color;
   }
   > .subtitle {
-    font-family: 'Helvetica Neue';
-    font-size: 36px;
-    color: #666666;
+    font-family: $main-font;
+    font-size: $secondary-title-size;
+    color: $secondary-title-color;
   }
 }

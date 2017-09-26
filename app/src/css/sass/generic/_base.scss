@@ -1,0 +1,11 @@
+// Generic
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $main-background-color;
+}

@@ -1,0 +1,17 @@
+// Define all mixins
+
+// Border-radius mixin for all corners with same radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Transform-translate generic mixin
+@mixin transform-translate($transform-x, $transform-y) {
+  -webkit-transform: translate($transform-x, $transform-y);
+  -moz-transform: translate($transform-x, $transform-y);
+  -ms-transform: translate($transform-x, $transform-y);
+  transform: translate($transform-x, $transform-y);
+}

@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+// Settings
+@import 'settings/fonts';
+@import 'settings/sizes';
+@import 'settings/colors';
+@import 'settings/timers';
+@import 'settings/media';
+
+// Generic
+@import 'generic/normalize';
+@import 'generic/base';
+
+// Tools
+@import 'tools/mixins';
+@import 'tools/extensions';
+
 // Components
-@import 'components/base';
 @import 'components/header';
+
+// Utilities
+@import 'utilities/helpers';

@@ -7,6 +7,7 @@
 
 # Patterns
 - [RSCSS] (http://rscss.io/)
+- [ITCSS] (https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
 # Development
 To start a local server, run:
