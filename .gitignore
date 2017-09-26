@@ -129,3 +129,4 @@ $RECYCLE.BIN/
 
 # Build path
 dist/
+package-lock.json
