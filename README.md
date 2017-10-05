@@ -17,7 +17,8 @@ On MacOS to install Yarn and packages, run:
   - brew install yarn
   - yarn
 
-On Windows, access this link https://yarnpkg.com/pt-BR/docs/install#windows-tab, and follow the presented steps.
+On Windows, access this link https://yarnpkg.com/pt-BR/docs/install#windows-tab, and follow the presented steps. After installing Yarn, run:
+  - yarn
 
 # Development
 To start a local server, run:
