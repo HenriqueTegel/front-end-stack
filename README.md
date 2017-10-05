@@ -9,6 +9,13 @@
 - [RSCSS] (http://rscss.io/)
 - [ITCSS] (https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
+# Starting
+On MacOS to install Yarn and packages, run:
+  - brew install yarn
+  - yarn
+
+On Windows, access this link https://yarnpkg.com/pt-BR/docs/install#windows-tab, and follow the presented steps.
+
 # Development
 To start a local server, run:
   - gulp
