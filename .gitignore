@@ -132,4 +132,5 @@ dist/
 package-lock.json
 app/src/css/main.css
 app/src/js/main.js
+app/src/js/main.js.map
 yarn.lock
