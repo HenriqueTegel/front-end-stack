@@ -9,6 +9,7 @@ var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var del = require('del');
 var runSequence = require('run-sequence');
+var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var htmlreplace = require('gulp-html-replace');
@@ -106,7 +107,12 @@ gulp.task('sass', function() {
 
 // Build scripts and generate main.js
 gulp.task('scripts', function() {
-  return gulp.src('app/src/js/lib/**/*.js')
+  var b = browserify({
+    entries: 'app/src/js/lib/main.js'
+  });
+  return b.bundle()
+    .pipe(source('main.js'))
+    .pipe(buffer())
     .pipe(sourcemaps.init())
     .pipe(babel())
     .pipe(concat('main.js'))
