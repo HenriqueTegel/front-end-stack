@@ -129,6 +129,8 @@ $RECYCLE.BIN/
 
 # Build path
 dist/
-package-lock.json
 app/src/css/main.css
 app/src/js/main.js
+
+# General
+package-lock.json
