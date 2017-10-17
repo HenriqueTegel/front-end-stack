@@ -97,8 +97,10 @@ gulp.task('clean-local', function() {
 // Build sass and generate main.css
 gulp.task('sass', function() {
   return gulp.src(paths.sass)
+    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(concat('main.css'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('app/src/css'))
     .pipe(browserSync.reload({
       stream: true

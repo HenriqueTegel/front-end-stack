@@ -130,9 +130,10 @@ $RECYCLE.BIN/
 # Build path
 dist/
 app/src/css/main.css
+app/src/css/main.css.map
 app/src/js/main.js
+app/src/js/main.js.map
 
 # General
 package-lock.json
-app/src/js/main.js.map
 yarn.lock
